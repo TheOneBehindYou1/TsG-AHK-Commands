@@ -6,6 +6,8 @@ All the Commands are only written into the chat without being sent (Except screa
 Do **not** type anything before the cursor stopped moving
 
 (name) will **ALWAYS** be removed, you don't need to do it
+
+More Games will hopefully come in the future
   
 
 
