@@ -204,4 +204,26 @@ Loop, 6 {
 }
 return
 
+Shift & F11::
+SetKeyDelay , 10, 10 ;
+Send, tCAMPING is NOT allowed{!}
+Sleep 10
+Send, {Enter}
+Sleep 1000
+Send, tCAMPEN ist NICHT erlaubt{!}
+Sleep 10
+Send, {Enter}
+Sleep 1000
+Send, tКЕМПИНГ НЕ РАЗРЕШЕН{!}
+Sleep 10
+Send, {Enter}
+Sleep 1000
+Send, tLE CAMPING N'EST PAS autorisé{!}
+Sleep 10
+Send, {Enter}
+Sleep 1000
+Send, tCAMPING'e izin verilmiyor{!}
+Sleep 10
+Send, {Enter}
+
 Alt & p::Suspend
