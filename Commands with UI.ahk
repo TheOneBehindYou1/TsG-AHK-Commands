@@ -73,13 +73,7 @@ else IfMsgBox Yes
 return
 
 HelpAbout:
-MsgBox, 64, About, Made by CntrlAltDel and TheOneBehindYou1`nIf you have questions, DM him on Discord or in the Forum
-;Gui, About:+owner1  ; Make the main window (Gui #1) the owner of the "about box".
-;Gui +Disabled  ; Disable main window.
-;Gui, About:Add, Text,, Made by CntrlAltDel and TheOneBehindYou1.
-;Gui, About:Add, Text,, If you have questions, send a DM on Discord or in the Forum
-;Gui, About:Add, Button, Default w275, OK
-;Gui, About:Show,, TsG Quick Commands
+MsgBox, 64, About, Made by CntrlAltDel and TheOneBehindYou1`nIf you have questions, send a DM on Discord or in the Forum
 return
 
 AboutButtonOK:  ; This section is used by the "about box" above.
