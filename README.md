@@ -1,4 +1,4 @@
-# kS Quick Commands
+# TsG Quick Commands
 Shortcuts for the MW3 ingame Commands
 
 All the Commands are only written into the chat without being sent (Except scream)
