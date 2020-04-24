@@ -2,6 +2,7 @@
 Gui, Add, Text,, Quick Commands Running
 Gui, Add, Text,, Always pause (Alt + P) QC when not Ingame 
 Gui, Add, Text,, Only close this when not needed anymore
+Gui, Add, Link,, <a href="https://github.com/TheOneBehindYou1/TsGQuickCommands">Version 1.0.6</a>
 Gui, Add, Button, default w225, Close 
 Gui, Show,, TsG Quick Commands
 return  ; End of auto-execute section. The script is idle until the user does something.
@@ -130,6 +131,13 @@ Loop, 6 {
 }
 return
 
+Numpad9::
+SetKeyDelay , 10, 10 ;
+Send, t{!}list
+Sleep 10
+Send, t{Enter}
+return
+
 Numpad0::
 SetKeyDelay , 10, 10 ;
 Send, t{!}clean <name>
@@ -139,7 +147,7 @@ Loop, 6 {
 }
 return
 
-Shift & Numpad1::
+Alt & Numpad1::
 SetKeyDelay , 10, 10 ;
 Send, t{!}kick <name> rule2
 Loop, 5 {
@@ -152,7 +160,7 @@ Loop, 6 {
 }
 return
 
-Shift & Numpad2::
+Alt & Numpad2::
 SetKeyDelay , 10, 10 ;
 Send, t{!}kick <name> rule3
 Loop, 6 {
@@ -165,7 +173,7 @@ Loop, 6 {
 }
 return
 
-Shift & Numpad3::
+Alt & Numpad3::
 SetKeyDelay , 10, 10 ;
 Send, t{!}kick <name> rule4
 Loop, 6 {
@@ -178,7 +186,7 @@ Loop, 6 {
 }
 return
 
-Shift & Numpad4::
+Alt & Numpad4::
 SetKeyDelay , 10, 10 ;
 Send, t{!}kick <name> rule5
 Loop, 6 {
@@ -191,7 +199,7 @@ Loop, 6 {
 }
 return
 
-Shift & Numpad5::
+Alt & Numpad5::
 SetKeyDelay , 10, 10 ;
 Send, t{!}kick <name> rule6
 Loop, 6 {
@@ -203,27 +211,5 @@ Loop, 6 {
 	Send, {Backspace}
 }
 return
-
-Shift & F11::
-SetKeyDelay , 10, 10 ;
-Send, tCAMPING is NOT allowed{!}
-Sleep 10
-Send, {Enter}
-Sleep 1000
-Send, tCAMPEN ist NICHT erlaubt{!}
-Sleep 10
-Send, {Enter}
-Sleep 1000
-Send, tКЕМПИНГ НЕ РАЗРЕШЕН{!}
-Sleep 10
-Send, {Enter}
-Sleep 1000
-Send, tLE CAMPING N'EST PAS autorisé{!}
-Sleep 10
-Send, {Enter}
-Sleep 1000
-Send, tCAMPING'e izin verilmiyor{!}
-Sleep 10
-Send, {Enter}
 
 Alt & p::Suspend
