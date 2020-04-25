@@ -2,7 +2,7 @@
 Gui, Add, Text,, Quick Commands Running
 Gui, Add, Text,, Always pause (Alt + P) QC when not Ingame 
 Gui, Add, Text,, Only close this when not needed anymore
-Gui, Add, Link,, <a href="https://github.com/TheOneBehindYou1/TsGQuickCommands">Version 1.0.6</a>
+Gui, Add, Link,, <a href="https://github.com/TheOneBehindYou1/TsGQuickCommands">Version 1.0.7</a>
 Gui, Add, Button, default w225, Close 
 Gui, Show,, TsG Quick Commands
 return  ; End of auto-execute section. The script is idle until the user does something.
@@ -150,7 +150,7 @@ return
 Alt & Numpad1::
 SetKeyDelay , 10, 10 ;
 Send, t{!}kick <name> rule2
-Loop, 5 {
+Loop, 6 {
 	Sleep 10
 	Send, {Left}
 }
