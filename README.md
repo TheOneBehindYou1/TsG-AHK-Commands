@@ -1,4 +1,4 @@
-# TsG Quick Commands
+# TsG-AHK-Commands
 Shortcuts for the MW3 ingame Commands
 
 All the Commands are only written into the chat without being sent (Except scream)
@@ -18,4 +18,4 @@ Not every Command works with every Rank
 I hope this makes your life easier
 
 ## Self edit
-You can easily edit the Quick Commands to your liking. For that you need to download AHK (AutoHotKey) and the **.ahk** files from here and start editing
+You can easily edit the AHK-Commands to your liking. For that you need to download AHK (AutoHotKey) and the **.ahk** files from here and start editing
